@@ -12,6 +12,7 @@ import DragAndDrop from './components/DragAndDrop';
 import Signals from './components/Signals';
 import Traffic from './components/Traffic';
 import DayView from './components/Calender/DayView';
+import Tabs from './components/Tab/Tabs';
 
 function App() {
 // const[showModal,setShowModal]=useState(false);
@@ -53,7 +54,8 @@ const initialData = {
       {/* <DragAndDrop initialData={initialData}/>*/}
 
       {/* <Traffic/> */}
-      <DayView/>
+      {/* <DayView/> */}
+      <Tabs/>
       
     </div>
   );
