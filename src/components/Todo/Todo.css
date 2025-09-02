@@ -1,0 +1,116 @@
+/* Global reset */
+body {
+  background: #f4f7fb;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+.todo-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+/* Input */
+.todo-input {
+  width: 260px;
+  padding: 12px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+.todo-input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+}
+
+/* Buttons (base) */
+.todo-btn {
+  padding: 10px 18px;
+  margin-left: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.todo-btn:hover {
+  transform: translateY(-2px);
+}
+
+/* Add button */
+.add-btn {
+  background: linear-gradient(135deg, #4facfe, #007bff);
+  color: #fff;
+}
+
+.add-btn:hover {
+  background: linear-gradient(135deg, #007bff, #0056b3);
+}
+
+/* Completed button */
+.complete-btn {
+  background: #28a745;
+  color: white;
+}
+
+.complete-btn:hover {
+  background: #218838;
+}
+
+/* Delete button */
+.delete-btn {
+  background: #dc3545;
+  color: white;
+}
+
+.delete-btn:hover {
+  background: #c82333;
+}
+
+/* Todo list */
+.todo-list {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+/* Each todo item */
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  margin: 12px 0;
+  padding: 14px 18px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.todo-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Todo text */
+.todo-text {
+  font-size: 16px;
+  color: #333;
+}
+
+/* Completed todo text style */
+.todo-text.completed {
+  text-decoration: line-through;
+  color: #999;
+}
+.Line{
+    text-decoration: line-through;
+}
