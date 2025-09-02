@@ -1,0 +1,14 @@
+.main_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+ }
+.star{
+    font-size: 25px;
+    cursor: pointer;
+}
+.gold
+{
+    color: gold;
+}

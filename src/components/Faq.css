@@ -1,0 +1,53 @@
+/* .qna{
+    border: 3px solid black;
+    margin: 3px;
+    padding: 4px;
+    position: relative;
+    span{
+        position: absolute;
+        right:3rem;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+}
+.border{
+    border-bottom: 1px dotted black;
+    margin-bottom: 2px;
+} */
+
+.qna{
+    border: 3px solid black;
+    margin: 3px;
+    padding: 3px;
+    position: relative;
+    span{
+        position: absolute;
+        right: 3rem;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+}
+.border{
+    border-top: 4px solid pink;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

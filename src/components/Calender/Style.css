@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.slot
+{
+    width: 100%;
+    height: 5rem;
+    border-bottom: 1px solid lightgray;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+}
+.calender{
+    position: relative;
+}
+.line{
+    position: absolute;
+    width: 1px;
+    left: 5rem;
+    height: 100%;
+    background-color: lightgray;
+}
+.event{
+    position: absolute;
+    left: 6rem;
+    background-color: lightgreen;
+    width: calc(100% - 8rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
